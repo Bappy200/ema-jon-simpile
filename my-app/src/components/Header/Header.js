@@ -1,9 +1,16 @@
 import React from 'react'
+import logo from '../../images/logo.png'
+import './Header.css'
 
 function Header() {
     return (
-        <div>
-            <h2>Header Section</h2>  
+        <div className='header-section'>
+            <img src={logo} alt='Logo'/>  
+            <nav>
+                <a href="/shop">Shope</a>
+                <a href="/reviwe">Our Reviwe</a>
+                <a href="/manage">Manage Inventory</a>
+            </nav>
         </div>
     )
 }

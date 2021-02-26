@@ -1,0 +1,27 @@
+.product{
+    display: flex;
+    border-bottom: 2px solid #3333;
+    margin-bottom: 10px;
+}
+.product .info{
+    text-align: left;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.product .info button{
+    width: 150px;
+    height: 20px;
+    background: lightsalmon;
+    color: #ffff;
+    border: 1px solid rgb(250, 186, 186);
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
